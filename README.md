@@ -20,8 +20,7 @@ The repository structure is based on [Cookiecutter Data Science](http://drivenda
 ├── data  
 │   └── raw                : Darwin Core data provided by Natuurpunt
 │
-├── specification
-│   └── dwc-occurrence.yaml : Specification for the data (used for validation)
+├── specification          : Specification for the data (used for validation)
 │
 └── notebooks
     └── verify-mapping.ipynb : Script to validate the data
