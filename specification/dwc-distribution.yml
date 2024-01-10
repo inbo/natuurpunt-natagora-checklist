@@ -1,0 +1,63 @@
+# Dataset: natuurpunt-natagora-checklist
+# DOI: 
+# 
+# Scope: https://rs.gbif.org/sandbox/extension/distribution_2021-08-30.xml
+# Author: Peter Desmet
+# Syntax version: 0.1
+
+taxonID:
+  numberformat: x
+
+locationID:
+  allowed:
+    - ISO_3166-2:BE
+    - ISO_3166-2:BE-BRU
+    - ISO_3166-2:BE-VLG
+    - ISO_3166-2:BE-WAL
+
+locality:
+  allowed:
+    - Belgium
+    - Brussels-Capital Region
+    - Flemish Region
+    - Walloon Region
+
+countryCode:
+  allowed: BE
+
+# lifeStage: not provided
+# LifeStage might be available for occurrences, but distributions are not split on this property.
+
+occurrenceStatus:
+  allowed: present
+
+establishmentMeans:
+  allowed:
+    - native
+    - introduced # naturalized, naturalizing, exotic, or incidental import
+    - vagrant
+    - uncertain
+
+# degreeOfEstablishment: not provided
+# captive, released, etc. might be available for occurrences, but that information is not always 
+# reliable and not used to split distributions.
+
+# pathway: not known
+
+# threatStatus: not known
+
+# appendixCITES: not known
+
+eventDate:
+  dateformat: '%Y-%m-%d/%Y-%m-%d' # YYYY-MM-DD/YYYY-MM-DD
+
+# startDayOfYear: not provided
+
+# endDayOfYear: not provided
+
+# source: not provided
+
+# occurrenceRemarks: not provided
+
+# datasetID: not provided
+# See taxon core.

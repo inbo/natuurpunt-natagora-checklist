@@ -1,0 +1,96 @@
+# Dataset: natuurpunt-natagora-checklist
+# DOI: 
+# 
+# Scope: https://rs.gbif.org/sandbox/core/dwc_taxon_2021-08-16.xml
+# Author: Peter Desmet
+# Syntax version: 0.1
+
+# modified: not provided
+
+language:
+  allowed: en
+
+license:
+  allowed: https://creativecommons.org/licenses/by/4.0/
+
+rightsHolder:
+  allowed: Natuurpunt Studie | Natagora
+
+accessRights:
+  allowed: http://www.natuurpunt.be/normen-voor-datagebruik
+
+# bibliographicCitation: not provided
+
+references:
+  regex: 'https:\/\/waarnemingen\.be\/species\/(\d)+'
+
+datasetID:
+  allowed: https://doi.org/10.15468/a7wkuh
+
+datasetName:
+  allowed: Waarnemingen.be / observations.be - List of species observed in Belgium
+
+# informationWithheld: not applicable
+
+taxonID:
+  numberformat: x # Internal species identifier
+
+# scientificNameID: not applicable
+# acceptedNameUsageID: not applicable
+# parentNameUsageID: not applicable
+# originalNameUsageID: not known
+# nameAccordingToID: not known
+# namePublishedInID: not known
+# taxonConceptID: not applicable
+
+scientificName:
+  empty: false
+  regex: '[A-Z][a-z]+ [a-z-]+'
+
+# acceptedNameUsage: not applicable
+# parentNameUsage: not applicable
+# originalNameUsage: not known
+# nameAccordingTo: not known
+# namePublishedIn: not known
+# namePublishedInYear: not known
+# higherClassification: not provided
+
+kingdom:
+  allowed:
+    - Animalia
+    - Bacteria
+    - Chromista
+    - Fungi
+    - Plantae
+    - Protozoa
+
+# phylum: not provided
+# class: not provided
+# order: not provided
+# family: not provided
+# subfamily: not provided
+# genus: not provided
+# genericName: not provided
+# subgenus: not provided
+# infragenericEpithet: not provided
+# specificEpithet: not provided
+# infraspecificEpithet: not provided
+# cultivarEpithet: not provided
+
+taxonRank:
+  allowed:
+    - species
+    # - subspecies: v2
+    # - variety: v2
+    # - forma: v2
+    # - cultivar: v2
+    # - multispecies: excluded from checklist
+    # - hybrid: v2
+
+# verbatimTaxonRank: not applicable
+# scientificNameAuthorship: not provided
+
+# vernacularName: TODO: not provided?
+
+# nomenclaturalCode: not provided
+# Differs depending on kingdom and not guaranteed to follow code.
