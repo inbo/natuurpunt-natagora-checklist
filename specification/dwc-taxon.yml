@@ -66,6 +66,42 @@ kingdom:
     - Fungi
     - Plantae
     - Protozoa
+  if:
+    - scientificName:
+        allowed:
+          - Nostoc commune
+          - Nostoc pruniforme
+      allowed: Bacteria
+    - scientificName:
+        allowed:
+          - Ascophyllum nodosum
+          - Attheya armata
+          - Bacillaria paxillifer
+          - Chorda filum
+          - Cymatopleura solea
+          - Cystoseira baccata
+          - Diploneis didyma
+          - Fucus serratus
+          - Fucus spiralis
+          - Fucus vesiculosus
+          - Halidrys siliquosa
+          - Himanthalia elongata
+          - Laminaria digitata
+          - Laminaria hyperborea
+          - Melosira moniliformis
+          - Nassula ornata
+          - Noctiluca scintillans
+          - Petalonia fascia
+          - Phaeocystis pouchetii
+          - Saccharina latissima
+          - Sargassum muticum
+          - Undaria pinnatifida
+      allowed: Chromista
+    - scientificName:
+        allowed:
+          - Euglena mutabilis
+          - Phacus longicauda
+      allowed: Protozoa
 
 # phylum: not provided
 # class: not provided
